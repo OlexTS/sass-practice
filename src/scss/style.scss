@@ -1,3 +1,10 @@
-@use "reset";
-@use './base/base';
-@use './components/badge'
+// @use "./base/reset";
+// @use './base/base';
+// @use './components/badge';
+
+@use "./--examples--/lesson-5/variables";
+@use "./--examples--/lesson-5/button";
+@use "./--examples--/lesson-5/scopes";
+
+/* == END == */
+@use "./--examples--/lesson-5/base"
