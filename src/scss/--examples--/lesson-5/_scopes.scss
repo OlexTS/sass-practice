@@ -1,12 +1,12 @@
 $color-primary: teal; // global scope
 
-body{
-    $color-primary: lightblue; //local scope
-$secondary-color: white !global;
-    background-color: $color-primary;
+body {
+  $color-primary: lightblue; //local scope
+  $secondary-color: white !global;
+  background-color: $color-primary;
 }
 
-p{
-    color: $secondary-color;
-    background-color: $color-primary;
+p {
+  color: $secondary-color;
+  background-color: $color-primary;
 }
