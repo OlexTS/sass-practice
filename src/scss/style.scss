@@ -22,6 +22,13 @@
 // @use "--examples--/lesson-7/math"
 
 //Examples lesson-9
-@use "./--examples--/lesson-9/extend";
-@use "./components/alert";
-@use "./base/fonts"
+// @use "./--examples--/lesson-9/extend";
+// @use "./components/alert";
+// @use "./base/fonts";
+
+//Examples lesson-10
+// @use "./components/button";
+@use "./base/fonts";
+@use "./--examples--/lesson-10/mixins";
+
+
