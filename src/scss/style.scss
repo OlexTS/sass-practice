@@ -28,7 +28,12 @@
 
 //Examples lesson-10
 // @use "./components/button";
+// @use "./base/fonts";
+// @use "./--examples--/lesson-10/mixins";
+
+//Examples lesson-11
 @use "./base/fonts";
-@use "./--examples--/lesson-10/mixins";
+@use "./components/button";
+@use "./--examples--/lesson-11/if"
 
 
